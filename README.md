@@ -1,98 +1,109 @@
-# Strange-Times
-A 16-bit Stranger Things–inspired game set in the Upside Down.
-Characters made in Pixel art 
-Made in unity WebGL with C# and web dev package
+# Upside Down
 
-**Playable Characters**
+A 16-bit *Stranger Things*–inspired game built in **Unity**, set in the Upside Down.
 
-  **Hazmat Soldier (Human)**
-    Customizable name
-    Equip different armor, weapons, and upgraded suits
-    You start at 15 HP
-    You start with a basic loadout-(basic gear: basic CAR-15 rifle, basic suit(same as armor))
-    Better armor level = +5 HP
-    Unlock coins to upgrade gear(weapons, armor, suits) by doing crawls, killing demos, and saving soldiers
-    Pilot helicopter?
+---
 
+## Game Overview
 
-  **Demogorgon**
+**Upside Down** is a retro-style action game where players can choose to play as either a **Hazmat Soldier** or a **Demogorgon**. The game features combat-driven gameplay, AI-controlled enemies, and an eerie reimagining of Hawkins and the Upside Down.
 
-   Attack Hawkins Lab, Hawkins town, and hazmat soldiers
-   Deals 25 damage per attack
+---
 
-**Death (when playing as…)**
+## Playable Characters
 
- **Demo**
-   You respawn in the upside down with a mind flayer message saying: Fail me again, and I won’t save you
+### Hazmat Soldier (Human)
+- Customizable name
+- Equip armor, weapons, and upgraded suits
+- Fights Demogorgons in the Upside Down and Hawkins Lab
 
- **Hazmat**
-   You respawn in the right-side-up lab with a message saying “You were attacked by the Demo and barely survived”.
+### Demogorgon
+- Attacks Hawkins Lab, Hawkins town, and hazmat soldiers
+- Can kill humans in one hit
+- Feeds on corpses to regain health
 
-**World Design**
- **The Upside Down and Hawkins (town + lab)**
+---
 
+## World Design
 
-  Either procedurally generated Upside Down with Hawkins/Lab
+- **Upside Down**
+  - Procedurally generated *or* hand-crafted
+- **Hawkins**
+  - Town and Lab areas
+- **Right Side Up**
+  - Limited to Hawkins Lab
 
-  Or a hand-crafted Upside Down only
+---
 
-  The “Right Side Up” is limited to Hawkins Lab
-**Gear**
+## Combat Mechanics
 
-**Basic**
-  CAR-15, basic suit & gear
+### Demogorgon Combat
+- One-hit kills using collision detection + attack animation
+- Killed enemies:
+  - Fly backward on death
+  - Switch to a second “dead” sprite with a large cut
+- Feeding:
+  - Restores health
+  - Demogorgon is immobile for **2.5 seconds** while feeding
 
-**Weapons**
-  Flamethrower, better ARs, molotovs, pistols, knives, swords
+### Health & Damage Values
+| Weapon          | Damage |
+|-----------------|--------|
+| Flamethrower    | −5 HP / second |
+| Gun             | −5 HP per shot |
+| Shotgun         | −15 HP per shot |
 
-**Gameplay Mechanics
+- Demogorgon starts with **50 HP**
 
-Demogorgon Combat**
+---
 
+## AI Behavior
 
-  One-hit kills using collision detection + attack animation
-  Enemies are either lab employees on the right side up, hazmat soldiers, or military
-  Enemies are knocked back on death
+- Demogorgons chase humans when playing as a human
+- Humans chase the Demogorgon when playing as the Demogorgon
+- Humans can appear in the Upside Down
 
+---
 
-  Enemy switches to a second “dead” sprite with a large cut
-  After demo feeds, the enemy that was fed on turns into a universal skin that is a ‘blood red blob of a person’
-  Demogorgon can feed on corpses to regain health
-  Feeding makes the Demogorgon immobile for 2.5 seconds
+## Enemies & Creatures
 
+- Hazmat Soldiers
+- Humans
+- Demogorgons
+- Mind Flayer *(planned)*
 
-**Health & Damage**
+---
 
+## Art Style
 
-  Demogorgon starts with 50 HP
-  Flamethrowers: −5 HP per second
-  Guns: −5 HP per shot
-  Shotguns: −15 HP per shot
+- 16-bit pixel art
+- Retro horror aesthetic
 
+---
 
+## Platforms & Distribution
 
-**AI Behavior**
+- Built with **Unity**
+- Published on:
+  - Unity Play
+  - itch.io
+- Web-embeddable version supported
 
-  Demogorgons chase humans when you play as a human
-  Humans attack Demogorgons when you play as a Demogorgon
-  Humans can appear in the Upside Down when playing as the Demogorgon
+---
 
+## Planned Features
 
-**Enemies & Creatures**
+- Mind Flayer boss
+- Expanded Hawkins town
+- More weapons and armor upgrades
+- Improved enemy AI
 
-  Hazmat soldiers also explore the upside down
-  Humans
-  Demogorgons
-  Mind Flayer
-  Military- you can’t play as them, just a lot of them for demos to farm and to aid hazmat
+---
 
-**Platforms & Distribution Goals**
+## Development
 
-**Built in Unity
+- Engine: Unity
+- Language: C#
+- Platform: PC / Web
 
-
-Playable via Unity Play and itch.io
-
-
-Embed on website
-**
+---
