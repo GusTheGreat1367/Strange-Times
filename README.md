@@ -2,6 +2,7 @@
 A 16-bit Stranger Things–inspired game set in the Upside Down.
 Characters made in Pixel art 
 Made in unity WebGL with C# and web dev package
+
 **Playable Characters**
 
   **Hazmat Soldier (Human)**
@@ -16,19 +17,19 @@ Made in unity WebGL with C# and web dev package
 
   **Demogorgon**
 
-  Attack Hawkins Lab, Hawkins town, and hazmat soldiers
-  Deals 25 damage per attack
+   Attack Hawkins Lab, Hawkins town, and hazmat soldiers
+   Deals 25 damage per attack
 
 **Death (when playing as…)**
 
-**Demo**
-  You respawn in the upside down with a mind flayer message saying: Fail me again, and I won’t save you
+ **Demo**
+   You respawn in the upside down with a mind flayer message saying: Fail me again, and I won’t save you
 
-**Hazmat**
-  You respawn in the right-side-up lab with a message saying “You were attacked by the Demo and barely survived”.
+ **Hazmat**
+   You respawn in the right-side-up lab with a message saying “You were attacked by the Demo and barely survived”.
 
 **World Design**
-**The Upside Down and Hawkins (town + lab)**
+ **The Upside Down and Hawkins (town + lab)**
 
 
   Either procedurally generated Upside Down with Hawkins/Lab
@@ -37,6 +38,7 @@ Made in unity WebGL with C# and web dev package
 
   The “Right Side Up” is limited to Hawkins Lab
 **Gear**
+
 **Basic**
   CAR-15, basic suit & gear
 
@@ -70,12 +72,14 @@ Demogorgon Combat**
 
 
 **AI Behavior**
+
   Demogorgons chase humans when you play as a human
   Humans attack Demogorgons when you play as a Demogorgon
   Humans can appear in the Upside Down when playing as the Demogorgon
 
 
 **Enemies & Creatures**
+
   Hazmat soldiers also explore the upside down
   Humans
   Demogorgons
@@ -83,6 +87,7 @@ Demogorgon Combat**
   Military- you can’t play as them, just a lot of them for demos to farm and to aid hazmat
 
 **Platforms & Distribution Goals**
+
 **Built in Unity
 
 
