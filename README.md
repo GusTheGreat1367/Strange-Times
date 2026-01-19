@@ -20,6 +20,7 @@ Made in unity WebGL with C# and web dev package
   Deals 25 damage per attack
 
 **Death (when playing as…)**
+
 **Demo **
   You respawn in the upside down with a mind flayer message saying: Fail me again, and I won’t save you
 
