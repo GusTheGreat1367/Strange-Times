@@ -21,7 +21,7 @@ Made in unity WebGL with C# and web dev package
 
 **Death (when playing as…)**
 
-**Demo **
+**Demo**
   You respawn in the upside down with a mind flayer message saying: Fail me again, and I won’t save you
 
 **Hazmat**
