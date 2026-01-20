@@ -1,4 +1,4 @@
-# Upside Down
+# Strange Times
 
 A 16-bit *Stranger Things*–inspired game built in **Unity**, set in the Upside Down.
 
@@ -6,7 +6,7 @@ A 16-bit *Stranger Things*–inspired game built in **Unity**, set in the Upside
 
 ## Game Overview
 
-**Upside Down** is a retro-style action game where players can choose to play as either a **Hazmat Soldier** or a **Demogorgon**. The game features combat-driven gameplay, AI-controlled enemies, and an eerie reimagining of Hawkins and the Upside Down.
+**Strange Times** is a retro-style action game where players can choose to play as either a **Hazmat Soldier** or a **Demogorgon**. The game features combat-driven gameplay, AI-controlled enemies, and an eerie reimagining of Hawkins and the Upside Down.
 
 ---
 
