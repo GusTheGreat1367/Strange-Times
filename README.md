@@ -57,19 +57,29 @@ A 16-bit *Stranger Things*–inspired game built in **Unity**, set in the Upside
 
 ---
 
+## Crawls
+
+- When playing as a hazmat soldier, you can collect coins, items (health buffs ect.), armor, and other weapons
+- If you die on a crawl, you lose all collected items.
+- You enter a crawl by going through the main gate at hawkins lab and start in the upside down version of it.
+
+---
+
 ## AI Behavior
 
 - Demogorgons chase humans when playing as a human
-- Humans chase the Demogorgon when playing as the Demogorgon
+- Humans attack you when playing as the Demogorgon
 - Humans can appear in the Upside Down
+- Demodogs accompany the Demogorgon and they attack humans
 
 ---
 
 ## Enemies & Creatures
 
-- Hazmat Soldiers
-- Humans
-- Demogorgons
+- Hazmat Soldiers NPC + playable
+- military personnel (both Earth + upside down) and scientists (hawkins lab) NPCs
+- Demogorgons NPC + playable
+- Demodogs NPC 
 - Mind Flayer *(planned)*
 
 ---
